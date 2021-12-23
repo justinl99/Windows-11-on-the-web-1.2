@@ -1,7 +1,6 @@
 <script lang="ts">
   import 'virtual:windi.css'
   import '$styles/styles.css'
-  import Calculator from '~/src/calculator.svelte'
 
   import Desktop from '$components/Desktop.svelte'
   import Dock from '$components/Dock.svelte'
