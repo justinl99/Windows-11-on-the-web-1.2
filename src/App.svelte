@@ -36,6 +36,13 @@
       icon: 'edge.png',
       isMinimized: false,
       isOpen: false
+    },
+    {
+      name: 'store',
+      title: 'Microsoft Store',
+      icon: 'store.png',
+      isMinimized: false,
+      isOpen: false
     }
   ].map((program, index) => ({
     ...program,
