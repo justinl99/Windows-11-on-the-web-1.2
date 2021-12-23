@@ -7,7 +7,6 @@
   import DockIcon from '$components/DockIcon.svelte'
   import Start from '$components/Start.svelte'
   import Window from '$components/Window.svelte'
-  import Calculator from '$/components/calculator.svelte'
 
   let startIsOpen = false
 
