@@ -1,12 +1,14 @@
 <script lang="ts">
   import 'virtual:windi.css'
   import '$styles/styles.css'
+  import Calculator from '~/src/calculator.svelte'
 
   import Desktop from '$components/Desktop.svelte'
   import Dock from '$components/Dock.svelte'
   import DockIcon from '$components/DockIcon.svelte'
   import Start from '$components/Start.svelte'
   import Window from '$components/Window.svelte'
+  import Calculator from '~/src/calculator.svelte'
 
   let startIsOpen = false
 
@@ -34,6 +36,13 @@
       name: 'edge',
       title: 'Edge',
       icon: 'edge.png',
+      isMinimized: false,
+      isOpen: false
+    },
+    {
+      name: 'calculator',
+      title: 'Calculator',
+      icon: 'calculator.png',
       isMinimized: false,
       isOpen: false
     },
